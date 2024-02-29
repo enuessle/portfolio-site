@@ -1,4 +1,9 @@
-.tab{
-    background: none;
-    border: none;
+.tabSwitch {
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: xx-large;
 }

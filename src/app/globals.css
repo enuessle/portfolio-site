@@ -17,3 +17,8 @@ h3 {
   color: var(--text-grey);
   text-shadow: 1px 1px var(--text-shadow-grey);
 }
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

@@ -4,7 +4,7 @@
 export default function Projects() {
   return (
     <div>
-      <h1> TODO: Projects</h1>
+      <h1> WIP: Projects</h1>
     </div>
   );
 }
