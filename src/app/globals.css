@@ -1,0 +1,19 @@
+:root {
+  --bg-grey: #333333;
+  --text-grey: #eeeeee;
+  --text-shadow-grey: #444444;
+}
+
+body {
+  background-color: var(--bg-grey);
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: var(--text-grey);
+  text-shadow: 1px 1px var(--text-shadow-grey);
+}
