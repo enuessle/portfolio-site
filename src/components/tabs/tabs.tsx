@@ -1,8 +1,9 @@
 "use client";
 
-import Contact from "@/contact/contact";
+import Contact from "@/components/contact/contact";
 import Projects from "../projects/projects";
 import Resume from "../resume/resume";
+
 import styles from "./tabs.module.css";
 import { useState } from "react";
 
