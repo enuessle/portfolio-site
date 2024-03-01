@@ -7,3 +7,10 @@
     gap: 15px;
     font-size: xx-large;
 }
+.nameBase {
+    color: var(--bg-text-on-background-dm);
+}
+
+.nameCurrent {
+    color: var(--bg-primary-dm);
+}

@@ -9,49 +9,45 @@ import { useState } from "react";
 
 //Select Which Tab, Contains all Tab Components
 export default function Tabs() {
-  const [tab, setTab] = useState("projects");
+  const [tab, setTab] = useState("Projects");
 
+  //Returns the component for current tab
   const currentTab = (tab: string) => {
     switch (tab) {
-      case "projects":
+      case "Projects":
         return <Projects />;
-      case "resume":
+      case "Resume":
         return <Resume />;
-      case "contact":
+      case "Contact":
         return <Contact />;
     }
+  };
+
+  //Returns a button that allows switching to the {name} tab
+  const tabButton = (name: string) => {
+    return (
+      <button
+        onClick={() => {
+          setTab(name);
+        }}
+      >
+        <h1
+          className={name === tab ? styles["nameCurrent"] : styles["nameBase"]}
+        >
+          {name}
+        </h1>
+      </button>
+    );
   };
 
   return (
     <>
       <div className={styles["tabSwitch"]}>
-        <button
-          onClick={() => {
-            setTab("projects");
-          }}
-        >
-          <h1>Projects</h1>
-        </button>
-
+        {tabButton("Projects")}
         <p>|</p>
-
-        <button
-          onClick={() => {
-            setTab("resume");
-          }}
-        >
-          <h1>Resume</h1>
-        </button>
-
+        {tabButton("Resume")}
         <p>|</p>
-
-        <button
-          onClick={() => {
-            setTab("contact");
-          }}
-        >
-          <h1>Contact</h1>
-        </button>
+        {tabButton("Contact")}
       </div>
 
       <div>{currentTab(tab)}</div>

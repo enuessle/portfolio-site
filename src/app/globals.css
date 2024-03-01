@@ -1,11 +1,16 @@
 :root {
-  --bg-grey: #333333;
-  --text-grey: #eeeeee;
-  --text-shadow-grey: #444444;
+  /*Material Design Colours*/
+    /*https://m2.material.io/design/color/dark-theme.html#ui-application*/
+    --bg-primary-dm: #BB86FC;
+    --bg-primary-var-dm: #3700B3;
+    --bg-secondary-var-dm: #03DAC6;
+    --bg-background-dm: #121212;
+    --bg-text-on-background-dm: #FFFFFF;
+    --bg-text-on-primary-dm: #000000;
 }
 
 body {
-  background-color: var(--bg-grey);
+  background-color: var(--bg-background-dm);
   margin: 0;
   padding: 0;
   text-align: center;
@@ -15,14 +20,15 @@ p,
 h1,
 h2,
 h3 {
-  color: var(--text-grey);
-  text-shadow: 1px 1px var(--text-shadow-grey);
+  color: var(--bg-text-on-background-dm);
+    /*text-shadow: 1px 1px var(--text-shadow-grey);*/
 }
 button {
   background: none;
   border: none;
   cursor: pointer;
 }
+
 /*Large PDF Viewer*/
 .pdfs {
   background: none;
