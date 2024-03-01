@@ -7,3 +7,6 @@
   align-items: center;
   font-size: xx-large;
 }
+.title {
+  color: var(--bg-primary-dm);
+}
