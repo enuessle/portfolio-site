@@ -8,6 +8,7 @@ body {
   background-color: var(--bg-grey);
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 p,
@@ -21,4 +22,11 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+}
+/*Large PDF Viewer*/
+.pdfs {
+  background: none;
+  border: none;
+  width: 60vw;
+  height: 60vw;
 }
