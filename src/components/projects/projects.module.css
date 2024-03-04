@@ -1,0 +1,11 @@
+.card {
+    width: 40vw;
+    height: 40vw;
+    box-sizing: border-box;
+    background-color: var(--bg-primary-dm);
+    opacity: 1;
+
+    text-align: left;
+    padding-left:2%;
+    padding-right: 2%;
+}
