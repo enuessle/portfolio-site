@@ -1,3 +1,13 @@
+.row{
+    width: 100vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
 .card {
     width: 40vw;
     height: 40vw;
