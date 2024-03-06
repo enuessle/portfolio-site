@@ -6,11 +6,13 @@
     align-items: center;
     gap: 15px;
     font-size: xx-large;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 .nameBase {
     color: var(--bg-text-on-background-dm);
 }
 
 .nameCurrent {
-    color: var(--bg-primary-dm);
+    color: rgba(var(--bg-primary-dm),1);
 }

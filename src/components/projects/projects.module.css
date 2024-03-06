@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 50px;
     min-width: 0;
 }
 
@@ -12,12 +12,12 @@
 .card {
     width: 40vw;
     height: 40vw;
+    gap: 0px;
     box-sizing: border-box;
-    display:block;
-    background-color: var(--bg-primary-dm);
-    opacity: 1;
+    background-color: rgba(var(--bg-primary-dm),0.75);
 
     text-align: left;
+    text-wrap: wrap;
     padding-left:1%;
     padding-right: 1%;
     border-radius: 10px;
@@ -29,4 +29,14 @@
     box-sizing: border-box;
     object-fit: contain;
     border-radius: 10px;
+}
+
+.details{
+    font-size:large;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.tech{
+    font-size:large;
+    color: var(--bg-secondary-var-dm);
 }

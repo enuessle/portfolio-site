@@ -21,11 +21,15 @@ interface projectDetails {
 export default function ProjectCard(props: projectDetails) {
   return (
     <div className={styles["card"]}>
-      <h4>{props.name}</h4>
-      <h5>{props.links}</h5>
+      <h3>{props.name}</h3>
+      <h5>
+        <a href={props.links}>{props.links}</a>
+      </h5>
       <img className={styles["image"]} src={props.image}></img>
-      <p>{props.details}</p>
-      <p>{props.tech}</p>
+      <p className={styles["details"]}>{props.details}</p>
+      <p className={styles["tech"]}>
+        <b>Technologies: {props.tech}</b>
+      </p>
     </div>
   );
 }
