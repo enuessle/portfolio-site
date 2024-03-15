@@ -1,7 +1,7 @@
 :root {
   /*Material Design Colours*/
     /*https://m2.material.io/design/color/dark-theme.html#ui-application*/
-    --bg-primary-dm: #BB86FC;
+    --bg-primary-dm: 187,134,252; /*#BB86FC*/
     --bg-primary-var-dm: #3700B3;
     --bg-secondary-var-dm: #03DAC6;
     --bg-background-dm: #121212;
@@ -19,14 +19,22 @@ body {
 p,
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   color: var(--bg-text-on-background-dm);
+  margin-top: 0;
+  margin-bottom: 0;
     /*text-shadow: 1px 1px var(--text-shadow-grey);*/
 }
 button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+a{
+  color:var(--bg-primary-var-dm)
 }
 
 /*Large PDF Viewer*/

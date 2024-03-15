@@ -8,5 +8,5 @@
   font-size: xx-large;
 }
 .title {
-  color: var(--bg-primary-dm);
+  color: rgba(var(--bg-primary-dm),1);
 }
