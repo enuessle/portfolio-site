@@ -15,12 +15,7 @@ export default function ProjectPage() {
 
   return (
     <div>
-      <div className={styles["flex-container"]}>
-        {projectCards}
-        <ProjectCard title="Project 2 Name" />
-        <ProjectCard title="Project 2 Name" />
-        <ProjectCard title="Project 2 Name" />
-      </div>
+      <div className={styles["flex-container"]}>{projectCards}</div>
     </div>
   );
 }
