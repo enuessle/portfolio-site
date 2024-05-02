@@ -9,10 +9,19 @@
     margin-bottom: 2em;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
 
 .card {
+    min-width: 400px;
     width: 40vw;
-    height: 40vw;
     gap: 0px;
     box-sizing: border-box;
     background-color: rgba(var(--bg-primary-dm),0.75);

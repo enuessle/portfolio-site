@@ -7,28 +7,31 @@ import {
   ReactPortal,
   PromiseLikeOfReactNode,
 } from "react";
+import Markdown from "react-markdown";
 import styles from "./projects.module.css";
 
 interface projectDetails {
-  name?: string;
-  link?: string;
+  title?: string;
+  subtitle?: string;
   image?: string;
-  details?: string;
-  tech?: string;
+  description?: string;
+  technologies?: string;
 }
 
 //TODO: Add Scalable Projects Section Blocks
 export default function ProjectCard(props: projectDetails) {
   return (
     <div className={styles["card"]}>
-      <h3>{props.name}</h3>
+      <h3>{props.title}</h3>
       <h5>
-        <a href={props.link}>{props.link}</a>
+        <Markdown>{props.subtitle}</Markdown>
       </h5>
       <img className={styles["image"]} src={props.image}></img>
-      <p className={styles["details"]}>{props.details}</p>
+      <p className={styles["details"]}>
+        <Markdown>{props.description}</Markdown>
+      </p>
       <p className={styles["tech"]}>
-        <b>Technologies: {props.tech}</b>
+        <b>Technologies: {props.technologies}</b>
       </p>
     </div>
   );
