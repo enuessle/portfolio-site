@@ -5,8 +5,8 @@
   flex-direction: column;
   justify-content: top;
   align-items: center;
-  font-size: xx-large;
 }
 .title {
+  font-size: 100px;
   color: rgba(var(--bg-primary-dm),1);
 }

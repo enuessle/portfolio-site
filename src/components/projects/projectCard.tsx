@@ -18,21 +18,19 @@ interface projectDetails {
   technologies?: string;
 }
 
+
 //TODO: Add Scalable Projects Section Blocks
 export default function ProjectCard(props: projectDetails) {
   return (
-    <div className={styles["card"]}>
-      <h3>{props.title}</h3>
-      <h5>
-        <Markdown>{props.subtitle}</Markdown>
-      </h5>
+    <div className={styles["flex-card"]}>
+      <Markdown className={styles["title"]}>{props.title}</Markdown>
+      <Markdown className={styles["subtitle"]}>{props.subtitle}</Markdown>
       <img className={styles["image"]} src={props.image}></img>
-      <div className={styles["details"]}>
-        <Markdown>{props.description}</Markdown>
-      </div>
-      <p className={styles["tech"]}>
+      <Markdown className={styles["description"]}>{props.description}</Markdown>
+      <p className={styles["technologies"]}>
         <b>Technologies: {props.technologies}</b>
       </p>
     </div>
   );
 }
+
