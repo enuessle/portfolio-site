@@ -27,9 +27,9 @@ export default function ProjectCard(props: projectDetails) {
         <Markdown>{props.subtitle}</Markdown>
       </h5>
       <img className={styles["image"]} src={props.image}></img>
-      <p className={styles["details"]}>
+      <div className={styles["details"]}>
         <Markdown>{props.description}</Markdown>
-      </p>
+      </div>
       <p className={styles["tech"]}>
         <b>Technologies: {props.technologies}</b>
       </p>
