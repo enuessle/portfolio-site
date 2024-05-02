@@ -1,8 +1,8 @@
 "use client";
 
-import Contact from "@/components/contact/contact";
-import Projects from "../projects/projects";
-import Resume from "../resume/resume";
+import ContactPage from "@/components/contact/contactPage";
+import ProjectPage from "../projects/projectPage";
+import ResumePage from "../resume/resumePage";
 
 import styles from "./tabs.module.css";
 import { useState } from "react";
@@ -15,11 +15,11 @@ export default function Tabs() {
   const currentTab = (tab: string) => {
     switch (tab) {
       case "Projects":
-        return <Projects />;
+        return <ProjectPage />;
       case "Resume":
-        return <Resume />;
+        return <ResumePage />;
       case "Contact":
-        return <Contact />;
+        return <ContactPage />;
     }
   };
 

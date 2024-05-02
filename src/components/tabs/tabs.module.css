@@ -15,4 +15,5 @@
 
 .nameCurrent {
     color: rgba(var(--bg-primary-dm),1);
+    text-decoration: underline;
 }

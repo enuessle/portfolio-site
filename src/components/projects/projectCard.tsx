@@ -11,7 +11,7 @@ import styles from "./projects.module.css";
 
 interface projectDetails {
   name?: string;
-  links?: string;
+  link?: string;
   image?: string;
   details?: string;
   tech?: string;
@@ -23,7 +23,7 @@ export default function ProjectCard(props: projectDetails) {
     <div className={styles["card"]}>
       <h3>{props.name}</h3>
       <h5>
-        <a href={props.links}>{props.links}</a>
+        <a href={props.link}>{props.link}</a>
       </h5>
       <img className={styles["image"]} src={props.image}></img>
       <p className={styles["details"]}>{props.details}</p>
