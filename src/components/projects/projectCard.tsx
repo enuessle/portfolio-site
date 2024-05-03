@@ -23,8 +23,10 @@ interface projectDetails {
 export default function ProjectCard(props: projectDetails) {
   return (
     <div className={styles["flex-card"]}>
-      <Markdown className={styles["title"]}>{props.title}</Markdown>
-      <Markdown className={styles["subtitle"]}>{props.subtitle}</Markdown>
+      <span className={styles["top"]}>
+        <Markdown className={styles["title"]}>{props.title}</Markdown>
+        <Markdown className={styles["subtitle"]}>{props.subtitle}</Markdown>
+      </span>
       <img className={styles["image"]} src={props.image}></img>
       <Markdown className={styles["description"]}>{props.description}</Markdown>
       <p className={styles["technologies"]}>

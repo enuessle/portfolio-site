@@ -27,13 +27,18 @@
     box-shadow: 5px 5px 5px black;
 }
 
+.top {
+    gap: 10px;
+}
 .title {
+    justify-content: left;
     font-size: 30px;
     font-weight: bold;
 }
 
 .subtitle {
-    font-size: 26px;
+    justify-content: right;
+        font-size: 25px;
     font-weight: bold;
 }
 .image{

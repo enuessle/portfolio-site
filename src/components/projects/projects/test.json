@@ -1,6 +1,6 @@
 {
   "title": "Test Card",
-  "subtitle": "[Github](https://github.com/GameXplode/Chip8)",
+  "subtitle": "[https://github.com/GameXplode/Chip8](https://github.com/GameXplode/Chip8)",
   "image": "https://raw.githubusercontent.com/GameXplode/Chip8/main/pics/TETRIS.png",
   "description": "Description of the Test Project 😂",
   "technologies": "React"
