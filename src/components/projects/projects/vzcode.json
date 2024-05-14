@@ -1,7 +1,7 @@
 {
   "title": "VZCode",
   "subtitle": "[Github](https://github.com/vizhub-core/vzcode)",
-  "image": "/images/vzcode.png",
+  "image": "images/vzcode.png",
   "description": "VZCode is a online code editor that supports **real-time** collaboration. Currently used as the code editor for [Vizhub](https://vizhub.com/). Supports Brower-based editing and file management. Includes interactive widgets in editor along with syntax highlighting for different coding langages.  \n> \n My contributions to this porject include adding full front and back end support for directories in the code editor, allowing users to add, rename, or delete directories as part of the VZCode experience.",
   "technologies": "NodeJS, React, Express, ShareDB CodeMirror 6, Vite"
 }

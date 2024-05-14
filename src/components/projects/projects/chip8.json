@@ -1,7 +1,7 @@
 {
   "title": "Chip 8",
   "subtitle": "[Github](https://github.com/GameXplode/Chip8)",
-  "image": "/images/chip8.png",
+  "image": "images/chip8.png",
   "description": "A feature-complete emulator for the CHIP-8 interpreted programming language, coded in **C++**. Uses the **SDL2 library** to provide cross-platform graphics and user-input support. Optimized to draw to the screen at 60 frames a second providing a smooth user experience for a wide variety of games coded for CHIP-8.",
   "technologies": "C/C++, OpenGL, SDL2, Make"
 }
