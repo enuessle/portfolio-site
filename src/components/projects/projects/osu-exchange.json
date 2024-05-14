@@ -1,7 +1,7 @@
 {
   "title": "OsuExchange",
   "subtitle": "[Github](https://github.com/alittlerocket/osuExchange)",
-  "image": "https://raw.githubusercontent.com/enuessle/portfolio-site/main/public/images/osuExchange.png?token=GHSAT0AAAAAACRX2RBB5INH5ZP2NOCK5WOQZSCSH2A",
-  "description": "A wrapper for the osu! API written in Python. Allows easy access to important endpoints in the API using simple Python code. Downloadable on pip. ",
+  "image": "/images/osuExchange.png",
+  "description": "A **API wrapper** for the ```osu!``` API for **Python**. Allows easy access to statistics and data from ```osu!``` through easy to use **Python** commands. Supports both puplic endpoints, and endpoints that require **authentification** through a simple user token. **Downloadable on pip.**",
   "technologies": "Python, API"
 }
