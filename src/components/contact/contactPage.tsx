@@ -4,7 +4,8 @@
 export default function ContactPage() {
   return (
     <div>
-      <h1>TODO: Contact</h1>
+      <h1>Email:</h1>
+      <h2>contact@enuessle.dev</h2>
     </div>
   );
 }
