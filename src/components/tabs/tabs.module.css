@@ -1,18 +1,21 @@
 .tabSwitch {
+    font-size: 30px;
     width: 100vw;
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    font-size: xx-large;
     margin-top: 1em;
     margin-bottom: 2em;
 }
 .nameBase {
+    font-size: 30px;
     color: var(--bg-text-on-background-dm);
 }
 
 .nameCurrent {
+    font-size: 30px;
     color: rgba(var(--bg-primary-dm),1);
+    text-decoration: underline;
 }

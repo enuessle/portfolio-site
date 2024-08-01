@@ -1,43 +1,57 @@
-.row{
-    width: 100vw;
-    display: inline-flex;
+.flex-container {
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 50px;
-    min-width: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     margin-bottom: 2em;
 }
 
-
-.card {
+.flex-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    min-width: 400px;
     width: 40vw;
-    height: 40vw;
-    gap: 0px;
+
     box-sizing: border-box;
-    background-color: rgba(var(--bg-primary-dm),0.75);
+    background-color: rgba(var(--bg-primary-dm), 0.75);
 
     text-align: left;
     text-wrap: wrap;
-    padding-left:1%;
-    padding-right: 1%;
+    padding: 1%;
+        padding-right: 4px;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
 }
 
+.top {
+    gap: 10px;
+}
+.title {
+    justify-content: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle {
+    justify-content: right;
+    font-size: 20px;
+}
 .image{
-    width: 100%;
+    width: 98%;
     height:auto;
     box-sizing: border-box;
     object-fit: contain;
     border-radius: 10px;
 }
 
-.details{
-    font-size:large;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
+.description {
+    font-size: 16px;
 }
-.tech{
-    font-size:large;
+.technologies {
+    font-size: 16px;
     color: var(--bg-secondary-var-dm);
 }
