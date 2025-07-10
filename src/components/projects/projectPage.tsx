@@ -10,7 +10,7 @@ export default function ProjectPage() {
 
   const projectCards = Object.keys(Projects).map((key: string) => {
     const project = Projects[key as keyof typeof Projects];
-    return <ProjectCard {...project} />;
+    return <ProjectCard key={key} {...project} />;
   });
 
   return (

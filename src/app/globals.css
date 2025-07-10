@@ -1,11 +1,14 @@
 :root {
+/*new design*/
+  --name-colour-1: #2bd842;
+  --name-colour-2: #03DAC6;
   /*Material Design Colours*/
     /*https://m2.material.io/design/color/dark-theme.html#ui-application*/
-    --bg-primary-dm: 187, 134, 252;
+    --bg-primary-dm: 105, 105, 125;
       /*#BB86FC*/
     --bg-primary-var-dm: #3700B3;
     --bg-secondary-var-dm: #03DAC6;
-    --bg-background-dm: #121212;
+    --bg-background-dm: #150222;
     --bg-text-on-background-dm: #FFFFFF;
     --bg-text-on-primary-dm: #000000;
 }
