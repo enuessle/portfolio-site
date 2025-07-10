@@ -1,0 +1,7 @@
+{
+  "title": "Ceph",
+  "subtitle": "[Site](https://ceph.io/en/)",
+  "image": "images/ceph.png",
+  "description": "Implemented additional telemetry features to Ceph, a software-defined distributed storage system to securely and scalably store and manage data. \n> \n Optimized Ceph telemetry modules, adding anonymous RocksDB version metric reporting for improved system monitoring for thousands of deployed clusters. \n> \n Designed and implemented unit tests for newly added telemetry features in RocksDB metrics, ensuring accurate data collection and long-term system stability.",
+  "technologies": "Python, C/C++, Linux(Ubuntu), RocksDB, Telemetry, OpenSource"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Tornjak",
+  "subtitle": "[Github](https://github.com/spiffe/tornjak)",
+  "image": "images/tornjak.jpg",
+  "description": "Implemented unit tests for recently refactored JWT authentication logic in Tornjak's Go-based microservices, improving maintainability and allowing independent testing of token parsing, header validation, and JWKS initialization. \n> \n Tested and documented Keycloak OIDC authentication for SPIFFE-based identity management in Kubernetes environments, helping ensuring secure role-based access control via validated JWTs and dynamic JWKS discovery.",
+  "technologies": "Go, Docker, Kubernetes, Unit Testing, Authentication, OpenSource"
+}

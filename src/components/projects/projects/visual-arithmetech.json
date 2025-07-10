@@ -2,6 +2,6 @@
   "title": "Visual Arithmetech",
   "subtitle": "[Devpost](https://devpost.com/software/visual-arithmetech)",
   "image": "images/visualArithmetech.png",
-  "description": "HackRPI **Hackathon winning project** in the Education and Best Domain categories.\n \n Visual Arithmetech is an interactive educational tool that enhances arithmetic learning with hands on, virtual environments that use real-time sandbox environments to show intuitive results to users.",
+  "description": "HackRPI **Hackathon winning project** in the Education and Best Domain categories. \n> \n Visual Arithmetech is an interactive educational tool that enhances arithmetic learning with hands on, virtual environments that use real-time sandbox environments to show intuitive results to users.",
   "technologies": "C#, WebGL, Unity, Web Application"
 }
