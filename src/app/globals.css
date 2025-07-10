@@ -1,7 +1,12 @@
 :root {
 /*new design*/
-  --name-colour-1: #2bd842;
-  --name-colour-2: #03DAC6;
+  --off-white: #dbfdff;
+    --middle-blue: rgb(129, 104, 241);
+    --name-colour-1: rgb(76, 44, 216);
+    --name-colour-2: #03dac8;
+    --about-me-colour: var(--off-white);
+    --tab-select-colour: var(--middle-blue);
+    --tab-notselect-colour: var(--off-white);
   /*Material Design Colours*/
     /*https://m2.material.io/design/color/dark-theme.html#ui-application*/
     --bg-primary-dm: 105, 105, 125;

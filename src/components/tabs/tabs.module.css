@@ -1,5 +1,6 @@
 .tabMain {
     align-items: center;
+    width: 100%;
 }
 .tabSwitch {
     font-size: 30px;
@@ -7,17 +8,24 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 50px;
     margin-top: 1em;
     margin-bottom: 2em;
 }
 .nameBase {
-    font-size: 30px;
-    color: var(--bg-text-on-background-dm);
+    font-size: 30pt;
+        color: var(--tab-notselect-colour);
+        transition: color 0.3s ease;
+    }
+    
+    .nameBase:hover {
+        color: color-mix(in srgb, var(--tab-select-colour) 50%, var(--tab-notselect-colour) 50%);
 }
 
 .nameCurrent {
-    font-size: 30px;
-    color: rgba(var(--bg-primary-dm),1);
+    font-size: 30pt;
+        color: var(--tab-select-colour);
     text-decoration: underline;
+        text-underline-offset: 15px;
+            /* move underline down */
 }

@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles["main"]}>
       <h1 className={styles["title"]}>Ethan Nuessle</h1>
       <p className={styles["aboutMe"]}>
-        Hey! I'm Ethan, a B.S. Computer Science and Mathematics graduate from
+        Hi! I'm Ethan, a B.S. Computer Science and Mathematics graduate from
         Rensselaer Polytecnic Institute! I have a strong academic background,
         graduating Magna Cum Laude with a 3.89 GPA, with an additional minor in
         Cognitive Science, and also have a large breadth of experience

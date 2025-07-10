@@ -44,9 +44,7 @@ export default function Tabs() {
     <div className={styles["tabMain"]}>
       <div className={styles["tabSwitch"]}>
         {tabButton("Projects")}
-        <p>|</p>
         {tabButton("Resume")}
-        <p>|</p>
         {tabButton("Contact")}
       </div>
 
