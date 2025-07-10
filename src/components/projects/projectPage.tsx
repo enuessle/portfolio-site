@@ -14,8 +14,8 @@ export default function ProjectPage() {
   });
 
   return (
-    <div>
+    <>
       <div className={styles["flex-container"]}>{projectCards}</div>
-    </div>
+    </>
   );
 }

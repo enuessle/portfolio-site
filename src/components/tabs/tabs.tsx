@@ -45,7 +45,6 @@ export default function Tabs() {
       <div className={styles["tabSwitch"]}>
         {tabButton("Projects")}
         {tabButton("Resume")}
-        {tabButton("Contact")}
       </div>
 
       <div>{currentTab(tab)}</div>

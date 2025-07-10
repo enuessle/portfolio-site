@@ -1,7 +1,7 @@
 .flex-container {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 75px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
@@ -14,10 +14,10 @@
     gap: 10px;
     align-items: flex-start;
     min-width: 400px;
-    width: 40vw;
+        width: 30vw;
 
     box-sizing: border-box;
-    background-color: rgba(var(--bg-primary-dm), 0.75);
+    background-color: var(--card-bg);
 
     text-align: left;
     text-wrap: wrap;
@@ -37,7 +37,7 @@
 }
 .title {
     justify-content: left;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -45,6 +45,7 @@
     justify-content: right;
     font-size: 20px;
 }
+
 .image{
     width: 98%;
     height:auto;
@@ -57,6 +58,6 @@
     font-size: 16px;
 }
 .technologies {
-    font-size: 16px;
+    font-size: 18px;
     color: var(--bg-secondary-var-dm);
 }
