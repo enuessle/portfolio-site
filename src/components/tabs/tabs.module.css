@@ -15,7 +15,7 @@
     margin-bottom: 2em;
 }
 .nameBase {
-    font-size: 30pt;
+    font-size: min(30pt, 5vw);
     font-weight: bold;
         color: var(--tab-notselect-colour);
         transition: color 0.3s ease;
@@ -26,7 +26,7 @@
 }
 
 .nameCurrent {
-    font-size: 30pt;
+    font-size: min(30pt, 5vw);
     font-weight: bold;
         color: var(--tab-select-colour);
     text-decoration: underline;
