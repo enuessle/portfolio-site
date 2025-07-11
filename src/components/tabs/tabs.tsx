@@ -41,16 +41,13 @@ export default function Tabs() {
   };
 
   return (
-    <>
+    <div className={styles["tabMain"]}>
       <div className={styles["tabSwitch"]}>
         {tabButton("Projects")}
-        <p>|</p>
         {tabButton("Resume")}
-        <p>|</p>
-        {tabButton("Contact")}
       </div>
 
       <div>{currentTab(tab)}</div>
-    </>
+    </div>
   );
 }

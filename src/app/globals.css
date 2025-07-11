@@ -1,17 +1,44 @@
 :root {
+/*new design*/
+  --off-white: #dbfdff;
+    --middle-blue: rgb(129, 104, 241);
+    --card-bg: rgba(129, 117, 184, 0.5);
+      --bg-colour-2: #150222;
+        --bg-colour-1: #040e3b;
+    --name-colour-1: rgb(76, 44, 216);
+    --name-colour-2: #03dac8;
+    --about-me-colour: var(--off-white);
+    --tab-select-colour: var(--middle-blue);
+    --tab-notselect-colour: var(--off-white);
   /*Material Design Colours*/
     /*https://m2.material.io/design/color/dark-theme.html#ui-application*/
-    --bg-primary-dm: 187, 134, 252;
+    --bg-primary-dm: 105, 105, 125;
       /*#BB86FC*/
     --bg-primary-var-dm: #3700B3;
     --bg-secondary-var-dm: #03DAC6;
-    --bg-background-dm: #121212;
+    --bg-background-dm: #150222;
     --bg-text-on-background-dm: #FFFFFF;
     --bg-text-on-primary-dm: #000000;
 }
 
+@keyframes backgroundFade {
+  0% {
+    background-color: var(--bg-colour-1);
+    /* Color 1 */
+  }
+
+  50% {
+    background-color: var(--bg-colour-2);
+    /* Color 2 */
+  }
+
+  100% {
+    background-color: var(--bg-colour-1);
+    /* Back to Color 1 */
+  }
+}
 body {
-  background-color: var(--bg-background-dm);
+  animation: backgroundFade 15s ease-in-out infinite;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -23,7 +50,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: var(--bg-text-on-background-dm);
+  color: var(--off-white);
   margin-top: 0;
   margin-bottom: 0;
     /*text-shadow: 1px 1px var(--text-shadow-grey);*/
@@ -35,7 +62,7 @@ button {
 }
 
 a{
-  color:var(--bg-primary-var-dm)
+  color: var(--middle-blue)
 }
 
 /*Large PDF Viewer*/

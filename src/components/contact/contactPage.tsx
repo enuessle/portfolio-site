@@ -4,15 +4,15 @@
 export default function ContactPage() {
   return (
     <div>
-      <h1>Email:</h1>
-      <h2>
+      <h1>
+        Email: &emsp;
         <a
           href="mailto:contact@enuessle.dev"
           className="text-xl font-semibold hover:underline"
         >
           contact@enuessle.dev
         </a>
-      </h2>
+      </h1>
     </div>
   );
 }
