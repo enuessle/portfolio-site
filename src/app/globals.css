@@ -3,8 +3,8 @@
   --off-white: #dbfdff;
     --middle-blue: rgb(129, 104, 241);
     --card-bg: rgba(129, 117, 184, 0.5);
-      --bg-colour-1: #150222;
-      --bg-colour-2: #040e3b;
+      --bg-colour-2: #150222;
+        --bg-colour-1: #040e3b;
     --name-colour-1: rgb(76, 44, 216);
     --name-colour-2: #03dac8;
     --about-me-colour: var(--off-white);

@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Tabs from "@/components/tabs/tabs";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,6 +17,17 @@ export default function Home() {
         Engineering and Artificial Intelligence, and the how these new
         technological advancements can change the current landscape!
       </p>
+      <div className={styles["linkRow"]}>
+        <Link
+          href="https://www.linkedin.com/in/ethan-nuessle/"
+          className={styles["link"]}
+        >
+          Linkedin
+        </Link>
+        <Link href="https://github.com/enuessle" className={styles["link"]}>
+          GitHub
+        </Link>
+      </div>
       <Tabs />
     </div>
   );
