@@ -29,6 +29,9 @@
     color: var(--about-me-colour);
 }
 
+.altColour {
+  color: var(--name-colour-2);
+}
 
 .linkRow {
   width: 100%;
