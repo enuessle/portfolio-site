@@ -22,10 +22,13 @@ export default function Home() {
           href="https://www.linkedin.com/in/ethan-nuessle/"
           className={styles["link"]}
         >
-          Linkedin
+          LinkedIn
         </Link>
         <Link href="https://github.com/enuessle" className={styles["link"]}>
           GitHub
+        </Link>
+        <Link href="mailto:contact@enuessle.dev" className={styles["link"]}>
+          E-Mail
         </Link>
       </div>
       <Tabs />

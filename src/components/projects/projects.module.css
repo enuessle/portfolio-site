@@ -13,8 +13,8 @@
     flex-direction: column;
     gap: 10px;
     align-items: flex-start;
-    min-width: 400px;
-        width: 30vw;
+    min-width: min(500px, 90vw);
+        width: 35vw;
 
     box-sizing: border-box;
     background-color: var(--card-bg);
