@@ -31,11 +31,11 @@ export default function Tabs() {
           setTab(name);
         }}
       >
-        <h1
+        <div
           className={name === tab ? styles["nameCurrent"] : styles["nameBase"]}
         >
           {name}
-        </h1>
+        </div>
       </button>
     );
   };

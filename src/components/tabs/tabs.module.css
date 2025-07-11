@@ -4,6 +4,8 @@
 }
 .tabSwitch {
     font-size: 30px;
+    color: var(--off-white);
+        font-weight: bold;
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
@@ -14,6 +16,7 @@
 }
 .nameBase {
     font-size: 30pt;
+    font-weight: bold;
         color: var(--tab-notselect-colour);
         transition: color 0.3s ease;
     }
@@ -24,6 +27,7 @@
 
 .nameCurrent {
     font-size: 30pt;
+    font-weight: bold;
         color: var(--tab-select-colour);
     text-decoration: underline;
         text-underline-offset: 15px;

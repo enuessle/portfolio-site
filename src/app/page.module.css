@@ -33,6 +33,7 @@
 .linkRow {
   width: 100%;
   display: flex;
+  flex-shrink: 1;
   justify-content: left;
   gap: 15px;
   margin-top: 20px;
@@ -57,9 +58,12 @@
   
   @media (aspect-ratio: 1/1),
   (max-aspect-ratio: 1/1) {
+.title {
+    text-align: center;
+    font-size: 15vw;
+  }
     .aboutMe {
       padding-right: 0;
-      text-align: center;
     }
   
     .linkRow {
