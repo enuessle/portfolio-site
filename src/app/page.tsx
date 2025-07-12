@@ -15,9 +15,26 @@ export default function Home() {
         background, graduating Magna Cum Laude with a 3.89 GPA and a{" "}
         <span className={styles["altColour"]}>minor in Cognitive Science</span>,
         and also have a large breadth of experience contributing to Open-Source
-        software, working with teams at IMB to contribute to the Backends of
-        Ceph and Tornjak, and with VizHub on Full-Stack contributions to VZCode.
-        I'm passionate about{" "}
+        software, working with teams at IMB to contribute to the Backends
+        of&nbsp;
+        <a href="https://ceph.io/en/" className={styles["aboutLink"]}>
+          Ceph
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://github.com/spiffe/tornjak"
+          className={styles["aboutLink"]}
+        >
+          Tornjak
+        </a>
+        , and with VizHub on Full-Stack contributions to{" "}
+        <a
+          href="https://github.com/vizhub-core/vzcode"
+          className={styles["aboutLink"]}
+        >
+          VZCode
+        </a>
+        . I'm passionate about{" "}
         <span className={styles["altColour"]}>
           Software Engineering and Artificial Intelligence
         </span>

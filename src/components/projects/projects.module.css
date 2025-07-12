@@ -24,7 +24,7 @@
     padding: 1%;
         padding-right: 4px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
+    /*box-shadow: 5px 5px 5px black;*/
     transition: transform 0.3s ease;
 }
 
@@ -42,9 +42,11 @@
 }
 
 .subtitle {
+    color: var(--off-white);
     justify-content: right;
     font-size: 20px;
 }
+
 
 .image{
     width: 98%;

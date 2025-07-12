@@ -33,6 +33,9 @@
   color: var(--name-colour-2);
 }
 
+.aboutLink {
+  color: var(--middle-blue)
+}
 .linkRow {
   width: 100%;
   display: flex;

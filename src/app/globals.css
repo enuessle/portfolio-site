@@ -2,7 +2,7 @@
 /*new design*/
   --off-white: #dbfdff;
     --middle-blue: rgb(129, 104, 241);
-    --card-bg: rgba(129, 117, 184, 0.5);
+    --card-bg: rgba(129, 104, 241, 0.8);
       --bg-colour-2: #150222;
         --bg-colour-1: #040e3b;
     --name-colour-1: rgb(76, 44, 216);
@@ -17,7 +17,7 @@
     --bg-primary-var-dm: #3700B3;
     --bg-secondary-var-dm: #03DAC6;
     --bg-background-dm: #150222;
-    --bg-text-on-background-dm: #FFFFFF;
+    --bg-text-on-background-dm: var(--off-white);
     --bg-text-on-primary-dm: #000000;
 }
 
@@ -62,7 +62,7 @@ button {
 }
 
 a{
-  color: var(--middle-blue)
+  color: var(--name-colour-2)
 }
 
 /*Large PDF Viewer*/
