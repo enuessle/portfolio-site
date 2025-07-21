@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .flex-card {
@@ -22,7 +22,6 @@
     text-align: left;
     text-wrap: wrap;
     padding: 1%;
-        padding-right: 4px;
     border-radius: 10px;
     /*box-shadow: 5px 5px 5px black;*/
     transition: transform 0.3s ease;
@@ -49,7 +48,7 @@
 
 
 .image{
-    width: 98%;
+    width: 100%;
     height:auto;
     box-sizing: border-box;
     object-fit: contain;
@@ -62,4 +61,18 @@
 .technologies {
     font-size: 18px;
     color: var(--bg-secondary-var-dm);
+}
+@media (aspect-ratio: 1/1),
+(max-aspect-ratio: 1/1) {
+    .flex-container {
+        gap: 30px;
+    }
+
+    .flex-card {
+        padding: 3%;
+    }
+
+    .flex-card:hover {
+        transform: scale(1);
+    }
 }
