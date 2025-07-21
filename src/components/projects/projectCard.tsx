@@ -10,12 +10,13 @@ import {
 import Markdown from "react-markdown";
 import styles from "./projects.module.css";
 
-interface projectDetails {
+export interface projectDetails {
   title?: string;
   subtitle?: string;
   image?: string;
   description?: string;
   technologies?: string;
+  priority?: number;
 }
 
 
