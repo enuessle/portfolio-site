@@ -54,12 +54,18 @@
   background: var(--name-colour-1);
   color: var(--off-white);
   padding: 10px;
-  transition: padding 0.3s ease;
+  margin-left: 20px;
+    margin-right: 20px;
+    flex-shrink: 1;
+    transition: all 0.3s ease;
+    display: inline-block;
 }
 
 .link:hover {
   padding-left: 30px;
-    padding-right: 30px;
+  padding-right: 30px;
+  margin-left: 00px;
+    margin-right: 00px;
   }
   
   @media (aspect-ratio: 1/1),
