@@ -81,4 +81,14 @@
     .linkRow {
       justify-content: center;
     }
+.link {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.link:hover {
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
 }
